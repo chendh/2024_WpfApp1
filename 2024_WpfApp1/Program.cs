@@ -13,6 +13,9 @@
             drink2.Name = "Pepsi";
             drink2.Size = "Large";
             drink2.Price = 40;
+
+            Console.WriteLine("Drink 1: " + drink1.Name + " " + drink1.Size + " " + drink1.Price);
+            Console.WriteLine("Drink 2: " + drink2.Name + " " + drink2.Size + " " + drink2.Price);
         }
     }
 }
